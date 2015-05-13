@@ -1,0 +1,151 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', '-g', 'colors' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.37
+4 verbose node symlink /usr/bin/node
+5 verbose cache add [ 'colors', null ]
+6 verbose cache add name=undefined spec="colors" args=["colors",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'colors',
+7 verbose parsed url   path: 'colors',
+7 verbose parsed url   href: 'colors' }
+8 silly lockFile f8bd6967-colors colors
+9 verbose lock colors /home/marina/.npm/f8bd6967-colors.lock
+10 silly lockFile f8bd6967-colors colors
+11 silly lockFile f8bd6967-colors colors
+12 verbose addNamed [ 'colors', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 647b9942-colors colors@
+15 verbose lock colors@ /home/marina/.npm/647b9942-colors.lock
+16 silly addNameRange { name: 'colors', range: '*', hasData: false }
+17 verbose request where is /colors
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id 0771a7e1bb93f344
+20 verbose url raw /colors
+21 verbose url resolving [ 'https://registry.npmjs.org/', './colors' ]
+22 verbose url resolved https://registry.npmjs.org/colors
+23 verbose request where is https://registry.npmjs.org/colors
+24 info trying registry request attempt 1 at 19:59:15
+25 verbose etag "8EE3HLZ11LX1ELM6HMSYRM6IC"
+26 http GET https://registry.npmjs.org/colors
+27 http 200 https://registry.npmjs.org/colors
+28 silly registry.get cb [ 200,
+28 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+28 silly registry.get     etag: '"7MLHS0Z9GW8WTJ5499AGBA4OE"',
+28 silly registry.get     'content-type': 'application/json',
+28 silly registry.get     'cache-control': 'max-age=60',
+28 silly registry.get     'content-length': '17168',
+28 silly registry.get     'accept-ranges': 'bytes',
+28 silly registry.get     date: 'Wed, 13 May 2015 22:59:17 GMT',
+28 silly registry.get     via: '1.1 varnish',
+28 silly registry.get     age: '58',
+28 silly registry.get     connection: 'keep-alive',
+28 silly registry.get     'x-served-by': 'cache-iad2122-IAD',
+28 silly registry.get     'x-cache': 'HIT',
+28 silly registry.get     'x-cache-hits': '3',
+28 silly registry.get     'x-timer': 'S1431557957.401888,VS0,VE0',
+28 silly registry.get     vary: 'Accept' } ]
+29 silly addNameRange number 2 { name: 'colors', range: '*', hasData: true }
+30 silly addNameRange versions [ 'colors',
+30 silly addNameRange   [ '0.3.0',
+30 silly addNameRange     '0.5.0',
+30 silly addNameRange     '0.5.1',
+30 silly addNameRange     '0.6.0',
+30 silly addNameRange     '0.6.0-1',
+30 silly addNameRange     '0.6.1',
+30 silly addNameRange     '0.6.2',
+30 silly addNameRange     '1.0.0',
+30 silly addNameRange     '1.0.1',
+30 silly addNameRange     '1.0.2',
+30 silly addNameRange     '1.0.3',
+30 silly addNameRange     '1.1.0' ] ]
+31 verbose addNamed [ 'colors', '1.1.0' ]
+32 verbose addNamed [ '1.1.0', '1.1.0' ]
+33 silly lockFile 4d2224be-colors-1-1-0 colors@1.1.0
+34 verbose lock colors@1.1.0 /home/marina/.npm/4d2224be-colors-1-1-0.lock
+35 silly lockFile b3dd7983-pmjs-org-colors-colors-1-1-0-tgz https://registry.npmjs.org/colors/-/colors-1.1.0.tgz
+36 verbose lock https://registry.npmjs.org/colors/-/colors-1.1.0.tgz /home/marina/.npm/b3dd7983-pmjs-org-colors-colors-1-1-0-tgz.lock
+37 verbose addRemoteTarball [ 'https://registry.npmjs.org/colors/-/colors-1.1.0.tgz',
+37 verbose addRemoteTarball   'ea2b7dfd38a7bb631323d29b108fa78fd16dc523' ]
+38 info retry fetch attempt 1 at 19:59:19
+39 verbose fetch to= /tmp/npm-6705-X_p82nJk/registry.npmjs.org/colors/-/colors-1.1.0.tgz
+40 http GET https://registry.npmjs.org/colors/-/colors-1.1.0.tgz
+41 http 200 https://registry.npmjs.org/colors/-/colors-1.1.0.tgz
+42 silly lockFile b3dd7983-pmjs-org-colors-colors-1-1-0-tgz https://registry.npmjs.org/colors/-/colors-1.1.0.tgz
+43 silly lockFile b3dd7983-pmjs-org-colors-colors-1-1-0-tgz https://registry.npmjs.org/colors/-/colors-1.1.0.tgz
+44 silly lockFile 4d2224be-colors-1-1-0 colors@1.1.0
+45 silly lockFile 4d2224be-colors-1-1-0 colors@1.1.0
+46 silly lockFile 647b9942-colors colors@
+47 silly lockFile 647b9942-colors colors@
+48 silly resolved [ { name: 'colors',
+48 silly resolved     description: 'get colors in your node.js console',
+48 silly resolved     version: '1.1.0',
+48 silly resolved     author: { name: 'Marak Squires' },
+48 silly resolved     homepage: 'https://github.com/Marak/colors.js',
+48 silly resolved     bugs: { url: 'https://github.com/Marak/colors.js/issues' },
+48 silly resolved     keywords: [ 'ansi', 'terminal', 'colors' ],
+48 silly resolved     repository: { type: 'git', url: 'http://github.com/Marak/colors.js.git' },
+48 silly resolved     license: 'MIT',
+48 silly resolved     scripts: { test: 'node tests/basic-test.js && node tests/safe-test.js' },
+48 silly resolved     engines: { node: '>=0.1.90' },
+48 silly resolved     main: 'lib',
+48 silly resolved     files: [ 'examples', 'lib', 'LICENSE', 'safe.js', 'themes' ],
+48 silly resolved     gitHead: 'b9ff17af7ce2548a93e34001dcb75777561cae17',
+48 silly resolved     _id: 'colors@1.1.0',
+48 silly resolved     _shasum: 'ea2b7dfd38a7bb631323d29b108fa78fd16dc523',
+48 silly resolved     _from: 'colors@',
+48 silly resolved     _npmVersion: '2.1.8',
+48 silly resolved     _nodeVersion: '0.11.13',
+48 silly resolved     _npmUser: { name: 'marak', email: 'marak.squires@gmail.com' },
+48 silly resolved     maintainers: [ [Object] ],
+48 silly resolved     dist:
+48 silly resolved      { shasum: 'ea2b7dfd38a7bb631323d29b108fa78fd16dc523',
+48 silly resolved        tarball: 'http://registry.npmjs.org/colors/-/colors-1.1.0.tgz' },
+48 silly resolved     directories: {},
+48 silly resolved     _resolved: 'https://registry.npmjs.org/colors/-/colors-1.1.0.tgz' } ]
+49 info install colors@1.1.0 into /usr/lib
+50 info installOne colors@1.1.0
+51 verbose lib/node_modules/colors unbuild
+52 verbose tar unpack /home/marina/.npm/colors/1.1.0/package.tgz
+53 silly lockFile 94e6f6a8-tar-usr-lib-node-modules-colors tar:///usr/lib/node_modules/colors
+54 verbose lock tar:///usr/lib/node_modules/colors /home/marina/.npm/94e6f6a8-tar-usr-lib-node-modules-colors.lock
+55 silly lockFile 579eb683-ina-npm-colors-1-1-0-package-tgz tar:///home/marina/.npm/colors/1.1.0/package.tgz
+56 verbose lock tar:///home/marina/.npm/colors/1.1.0/package.tgz /home/marina/.npm/579eb683-ina-npm-colors-1-1-0-package-tgz.lock
+57 silly gunzTarPerm modes [ '775', '664' ]
+58 error Error: EACCES, mkdir '/usr/lib/node_modules/colors'
+58 error  { [Error: EACCES, mkdir '/usr/lib/node_modules/colors']
+58 error   errno: 3,
+58 error   code: 'EACCES',
+58 error   path: '/usr/lib/node_modules/colors',
+58 error   fstream_type: 'Directory',
+58 error   fstream_path: '/usr/lib/node_modules/colors',
+58 error   fstream_class: 'DirWriter',
+58 error   fstream_stack:
+58 error    [ '/usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+58 error      '/usr/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+58 error      'Object.oncomplete (fs.js:108:15)' ] }
+59 error Please try running this command again as root/Administrator.
+60 error System Linux 3.16.0-30-generic
+61 error command "/usr/bin/node" "/usr/bin/npm" "install" "-g" "colors"
+62 error cwd /home/marina/crudtest2/crudtest
+63 error node -v v0.10.37
+64 error npm -v 1.4.28
+65 error path /usr/lib/node_modules/colors
+66 error fstream_path /usr/lib/node_modules/colors
+67 error fstream_type Directory
+68 error fstream_class DirWriter
+69 error code EACCES
+70 error errno 3
+71 error stack Error: EACCES, mkdir '/usr/lib/node_modules/colors'
+72 error fstream_stack /usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+72 error fstream_stack /usr/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+72 error fstream_stack Object.oncomplete (fs.js:108:15)
+73 verbose exit [ 3, true ]
